@@ -1,0 +1,35 @@
+body {
+    background-image: url(../img/s1200-1-51.jpg);
+}
+
+
+.bg_color {
+   
+    height: 100px;
+}
+
+.margin {
+  padding: 10px;
+   
+} 
+
+@media screen  and (max-width: 1800px) {
+    body {
+        background-size: 1800px;
+       
+    }
+}
+
+@media screen  and (max-width: 1225px) {
+    body {
+        background-size: 1225px;
+       
+    }
+} 
+
+@media screen  and (max-width: 752px) {
+    body {
+        background-size: 768px;
+       
+    }
+}
